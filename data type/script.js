@@ -18,7 +18,7 @@ console.log(typeof numberData);
 let isHappy = true;
 console.log(typeof isHappy);
 
-//Variables 
+// Variables 
 // Variable name should follow 
 // 1) letter
 // 2) number 
@@ -51,6 +51,33 @@ var number = 8.9777
 // toFixed means after . how many number can take! 
 console.log(number.toFixed(2));
 
+//how to add or concatenate strings
+document.write("mehedi" + " hasan" + " Abdulla");
 
+var firstName = " Abdulla Al ";
+var lastName = "Harun Mehedi";
+var fullName = firstName + lastName ;
+
+console.log("My name is" + fullName);
+
+var myFullName = "Abdulla Al Harun Mehedi";
+document.write(myFullName+ " is my Name");
+
+
+var num5 = 20;
+var num6 = 20;
+document.write("num5 = " + num5 + "and num6 =" + num6);
+
+// tutorial 8 : Library functions for string
+
+var text = "Bangladesh";
+var len = text.length;
+
+console.log("Number of character: " + len);
+
+//var text2 = prompt("Enter Your name : ");
+
+var text3 ="Bangladesh";
+document.write(text.charAt(2));
 
 
