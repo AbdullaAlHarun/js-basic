@@ -14,3 +14,5 @@ const friends = ["balam", "kalam", "salam", "khailam"]
 friends.pop();
 console.log(friends); // remove last data 
 
+friends.shift();
+console.log(friends);
