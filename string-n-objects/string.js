@@ -8,5 +8,6 @@ const thana = new String('Demra');
 // console.log(numbers[1]);
 
 const capital = 'Dhaka';
-console.log(capital.length);
-console.log(capital[2]);
+// console.log(capital.length);
+// console.log(capital[2]);
+  
