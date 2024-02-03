@@ -36,6 +36,7 @@ function mileToKilometer (mile){
     return kilo;
 }
 
+//kilo to mile
 function kiloMeterToMile(kilo){
     const mile = kilo * 0.621371;
     return mile;
