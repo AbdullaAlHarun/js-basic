@@ -22,3 +22,14 @@ function addAll (a,b,c,d,e){
 }
 
 addAll(2,2,2,2,2)
+
+function add (a,b) {
+    var result = a + b;
+    return result;
+}
+
+var sum = add(25,5);
+console.log(sum)
+
+var ehan = add(100,100);
+console.log(ehan)
