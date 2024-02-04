@@ -13,3 +13,19 @@ function woodQuantity(chairQuantity, tableQuantity, bedQuantity){
 
 const wood = woodQuantity(1,  1, 4);
 console.log("Wood Needed: ", wood)
+
+const prices = [20000, 16000, 50000, 100000, 12000, 30000, 35000];
+
+function getMin(numbers){
+let min = numbers[0];
+
+    for (const num of numbers) {
+         if (num < min) {
+            min = num;
+         }
+    }
+    return min;
+}
+
+const chep = getMin(prices);
+console.log("Chepest one is: ", chep);
