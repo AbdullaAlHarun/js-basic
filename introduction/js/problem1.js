@@ -38,3 +38,6 @@ function maxOfTheee (num1, num2, num3) {
 
 const resultOfThree = (20, 40,60)
 console.log("The Big Numeber is ", resultOfThree)
+
+const max = Math.max(2, 50, 36, 77,45, 109, 1, 34);
+console.log("The Highest vule is ", max);
