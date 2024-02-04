@@ -1,10 +1,10 @@
-function getMax(num1, num2){
-    if (num1 < num2){
-        return num1;
-    } else {
-        return num2;
-    }
-}
+// function getMax(num1, num2){
+//     if (num1 < num2){
+//         return num1;
+//     } else {
+//         return num2;
+//     }
+// }
 
 const max1 = (56, 44);
 const max2 = (70, 94);
@@ -25,3 +25,16 @@ if (jim > tim && jim > fim) {
 } else {
     console.log("Fim is the Boss!!")
 }
+
+function maxOfTheee (num1, num2, num3) {
+    if (num1 > num2 && num1> num3 ){
+        return num1;
+    } else if (num2 > num1 && num2 > num3) {
+        return num2;
+    } else {
+        return num3; 
+    }
+}
+
+const resultOfThree = (20, 40,60)
+console.log("The Big Numeber is ", resultOfThree)
