@@ -6,6 +6,22 @@ function getMax(num1, num2){
     }
 }
 
-const max = (56, 44);
+const max1 = (56, 44);
+const max2 = (70, 94);
+const ultimateMax = (max1 + max2);
 
-console.log("Max no is ", max)
+console.log("Max no is ", ultimateMax)
+
+
+
+const jim = 80;
+const tim = 90;
+const fim = 40;
+
+if (jim > tim && jim > fim) {
+    console.log("Jim is the boss")
+}else if (tim > jim && tim > fim) {
+    console.log("Tim is the boss")
+} else {
+    console.log("Fim is the Boss!!")
+}
