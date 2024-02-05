@@ -18,7 +18,16 @@ const myCat = {
 // console.log(myCat.color);
 console.log(myCat.age);
 
-// {} backet notetion 
+// [] backet notetion 
 
 const catFood = myCat["food"];
 console.log(catFood);
+
+myCat.color = "Black";
+
+myCat.sound = "halum halum";
+
+
+delete myCat["age"];
+
+console.log(myCat);
