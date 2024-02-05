@@ -1,3 +1,5 @@
+//make cube a numeber a probide number! 
+
 function cubeNumber(number){
 if(typeof number !== 'number'){
     return "Please provide a valid number "
