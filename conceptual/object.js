@@ -30,4 +30,9 @@ myCat.sound = "halum halum";
 
 delete myCat["age"];
 
-console.log(myCat);
+for (const key in myCat) {
+    console.log(myCat)
+}
+
+console.log(myCat[key]);
+
