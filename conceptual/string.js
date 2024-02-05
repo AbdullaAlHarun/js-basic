@@ -26,3 +26,14 @@ if (aa === bb.trim()){
     console.log("They are different!")
 }
 
+
+//array Method 
+
+const arrayMethod = "My name is abdulla al harun"
+
+const words = arrayMethod.split(" ");
+
+console.log(words)
+
+const arrayMethodJoin = words.join("__");
+console.log(arrayMethodJoin)
